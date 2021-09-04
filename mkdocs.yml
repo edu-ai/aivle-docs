@@ -1,0 +1,5 @@
+site_name: aiVLE Documentation
+theme:
+  name: material
+  palette:
+    scheme: slate
