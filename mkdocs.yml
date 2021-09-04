@@ -2,4 +2,32 @@ site_name: aiVLE Documentation
 theme:
   name: material
   palette:
-    scheme: slate
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: table
+  - pymdownx.superfences
+  - attr_list
+nav:
+  - Home: index.md
+  - User Guide:
+      - Overview: user-guide/index.md
+      - Creating Your Environment: user-guide/aivle-gym.md
+      - Creating Your Test Suite: user-guide/aivle-grader.md
+      - Validating Sandbox: user-guide/aivle-worker.md
+  - Developer Guide:
+      - Overview: dev-guide/index.md

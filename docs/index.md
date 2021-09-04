@@ -1,17 +1,9 @@
-# Welcome to aiVLE Documentation
+# aiVLE - AI Virtual Learning Environment
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+aiVLE is a complete solution for
 
-## Commands
+1. Creating reinforcement learning environment
+2. Evaluating reinforcement learning algorithms (i.e. agents)
+3. Hosting agent/bot competitions
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Getting Started](./user-guide/index.md){ .md-button .md-button--primary } [Contributing to aiVLE](./dev-guide/index.md){ .md-button }
