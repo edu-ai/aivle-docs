@@ -22,6 +22,7 @@ markdown_extensions:
       linenums_style: table
   - pymdownx.superfences
   - attr_list
+  - admonition
 nav:
   - Home: index.md
   - User Guide:
