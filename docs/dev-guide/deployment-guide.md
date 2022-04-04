@@ -68,6 +68,9 @@ The aiVLE Web backend uses token-based authentication. In other words, in the AP
 username and password along with the request. Instead, we provide an **access token** that can be invalidated easily
 without changing password for better security.
 
+!!!note
+    You may also use [aiVLE CLI](https://github.com/edu-ai/aivle-cli/releases) to get the access token.
+
 To obtain an **access token** for your account, use `POST /dj-rest-auth/login/` API with the following form fields:
 
 1. `username`

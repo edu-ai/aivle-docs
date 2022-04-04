@@ -8,3 +8,7 @@ architecture of the aiVLE platform.
 ## Architecture
 
 - Final year project report (link to be added)
+- [aiVLE Gym Design](./assets/design_doc_aivle_gym.pdf){:target="_blank"}
+- [aiVLE Grader Design](./assets/design_doc_aivle_grader.pdf){:target="_blank"}
+- [aiVLE Worker Design](./assets/design_doc_aivle_worker.pdf){:target="_blank"}
+- [aiVLE Web Design](./assets/design_doc_aivle_web.pdf){:target="_blank"}
