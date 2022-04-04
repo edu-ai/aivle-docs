@@ -32,3 +32,4 @@ nav:
       - Validating Sandbox: user-guide/aivle-worker.md
   - Developer Guide:
       - Overview: dev-guide/index.md
+      - Deployment Guide: dev-guide/deployment-guide.md

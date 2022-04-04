@@ -1,5 +1,9 @@
 # User Guide
 
+!!! note
+    This guide is for end users, not administrators. If you need help on the deployment process, please go to
+    [Deployment Guide](../dev-guide/deployment-guide.md).
+
 aiVLE is short for AI Virtual Learning Environment. It is a platform for evaluating the performance of reinforcement
 learning algorithms. Since Python + OpenAI Gym is the most popular toolkit for both writing reinforcement learning
 environments and agents, aiVLE provides easy-to-use wrappers on top of existing OpenAI Gym environments and compatible

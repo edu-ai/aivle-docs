@@ -5,10 +5,18 @@
 ---
 
 1. Create `.env` (if you only intend to test sandbox, put dummy values on the RHS is enough):
+<br/><br/>**Required fields**
 ```dotenv
+API_BASE_URL=...
 BROKER_URI=amqp://...
 ACCESS_TOKEN=...
+```
+**Optional fields** (shown here are the default values)
+```dotenv
 TASK_QUEUE=gpu/private/default
+CELERY_CONCURRENCY=1
+WORKER_NAME=celery
+ZMQ_PORT=15921
 ```
 
 2. Under `__main__.py`, rewrite paths in `start_sandbox()` function, run that function.
