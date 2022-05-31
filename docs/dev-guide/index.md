@@ -7,7 +7,7 @@ architecture of the aiVLE platform.
 
 ## Architecture
 
-- Final year project report (link to be added)
+- [Final year project report](https://github.com/le0tan/FYP-Final-Report/raw/main/Tan_Yuanhong_Final_Report.pdf){:target="_blank"}
 - [aiVLE Gym Design](./assets/design_doc_aivle_gym.pdf){:target="_blank"}
 - [aiVLE Grader Design](./assets/design_doc_aivle_grader.pdf){:target="_blank"}
 - [aiVLE Worker Design](./assets/design_doc_aivle_worker.pdf){:target="_blank"}
